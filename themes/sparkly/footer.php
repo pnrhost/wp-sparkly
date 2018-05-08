@@ -14,23 +14,85 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sparkly' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'sparkly' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'sparkly' ), 'sparkly', '<a href="http://pnrhost.com">privyreza</a>' );
-				?>
-		</div><!-- .site-info -->
+		
+<!-- footer -->
+	<div class="footer" id="footer">
+		<div class="container">
+			<div class="list">
+				<div class="col-md-3 wthree_fl">
+					<a href="#">Sparkly Cleaners</a>
+					</div>
+					
+				<div class="col-md-6 wthree_fc">
+					<h6> 133 Great Plumtree </h6>
+					<h6> Harlow </h6>
+					<h6> CM20 2NY</h6>
+					</div>
+					
+					<div class="col-md-3 wthree_fr">
+					<h6>078333836256</h6>
+					<h6><a href="mailto:admin@sparklycleaners.co.uk">admin@sparklycleaners.co.uk</a></h6>
+					</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+<div class="copyright">
+		<div class="container">
+			<p>© 2018 Sparkly Cleaners. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+		</div>
+	</div>
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+
+
+<!-- flexSlider -->
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items :2,
+									itemsDesktop : [800,2],
+									itemsDesktopSmall : [414,1],
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation :true,
+									
+							        navigationText :  false,
+							        pagination : true,
+									
+							      });
+								  
+							    });
+							    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.cm-overlay').cmOverlay();
+        });
+    </script>
+    <!-- //gallery -->
+
+<!-- Move-to-top-->
+<script type="text/javascript">
+$(document).ready(function() {
+var defaults = {
+containerID: 'toTop', // fading element id
+containerHoverID: 'toTopHover', // fading element hover id
+scrollSpeed: 1200,
+easingType: 'linear' 
+};
+$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<!--/Move-to-top-->
+
 
 </body>
 </html>

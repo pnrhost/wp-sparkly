@@ -11,3 +11,5 @@
  *
  * @package         Pnr_Sparkly
  */
+
+require plugin_dir_path(__FILE__) . '/post-types/services.php';

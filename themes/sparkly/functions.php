@@ -120,11 +120,50 @@ add_action( 'widgets_init', 'sparkly_widgets_init' );
  * Enqueue scripts and styles.
  */
 function sparkly_scripts() {
+
+	wp_enqueue_style( 'sparkly-bootstrap', get_template_directory_uri() . '/layouts/bootstrap.min.css' );
+
+	wp_enqueue_style( 'sparkly-font-awesome', get_template_directory_uri() . '/layouts/font-awesome.min.css');
+
+wp_enqueue_style( 'sparkly-owl', get_template_directory_uri() . '/layouts/owl.carousel.css' );
+
+wp_enqueue_style( 'sparkly-lightbox', get_template_directory_uri() . '/layouts/lightbox.css');
+
+
+wp_enqueue_style( 'sparkly-overlay', get_template_directory_uri() . '/layouts/cm-overlay.css');
+
 	wp_enqueue_style( 'sparkly-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'sparkly-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	wp_enqueue_script( 'sparkly-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'sparkly-navigation', get_template_directory_uri() . '/js/navigation.js');
+
+	wp_enqueue_script( 'sparkly-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js');
+
+
+
+	wp_enqueue_script( 'sparkly-jquery-min', get_template_directory_uri() . '/js/jquery.min.js');
+
+	wp_enqueue_script( 'sparkly-jquery', get_template_directory_uri() . '/js/jquery-2.1.4.min.js');
+
+	wp_enqueue_script( 'sparkly-jsbootstrap', get_template_directory_uri() . '/js/bootstrap.min.js' );
+
+	wp_enqueue_script( 'sparkly-grayscale', get_template_directory_uri() . '/js/grayscale.js' );
+
+
+	wp_enqueue_script( 'sparkly-jquery.cm', get_template_directory_uri() . '/js/jquery.cm-overlay.js' );
+
+
+	wp_enqueue_script( 'sparkly-jquery-easing', get_template_directory_uri() . '/js/jquery.easing.min.js' );
+
+wp_enqueue_script( 'sparkly-jquery.mobile', get_template_directory_uri() . '/js/jquery.mobile.custom.min.js' );
+
+	wp_enqueue_script( 'sparkly-move-top', get_template_directory_uri() . '/js/move-top.js');
+
+	wp_enqueue_script( 'sparkly-jsowl', get_template_directory_uri() . '/js/owl.carousel.js');
+
+	wp_enqueue_script( 'sparkly-jquery-tools', get_template_directory_uri() . '/js/jquery.tools.min.js' );
+
+	wp_enqueue_script( 'sparkly-smooth', get_template_directory_uri() . '/js/SmoothScroll.min.js');
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

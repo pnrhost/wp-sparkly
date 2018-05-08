@@ -1,58 +1,115 @@
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package sparkly
- */
-
-?>
-<!doctype html>
-<html <?php language_attributes(); ?>>
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+<title>Sparkly Cleaners | Home </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="Immerse a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<?php wp_head(); ?>
 
-	<?php wp_head(); ?>
+<link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+<link href="//fonts.googleapis.com/css?family=Sintony:400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
+<body>
+<!-- banner -->
+<div class="w3l_banner">
 
-<body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sparkly' ); ?></a>
+<div class="w3_bandwn">
+<div class="container">
+<div class="col-md-4 w3_l">
+<i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:admin@sparklycleaners.co.uk">admin@sparklycleaners.co.uk</a>
+</div>
+<div class="col-md-5 w3_c">
+<i class="fa fa-phone" aria-hidden="true"></i> 07833383626
+</div>
+<div class="col-md-3 w3_r">
+<a href="https://www.facebook.com/Sparklycleaners-1924176447873034"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar">
+        </span>
+      </button>
+     <h1><a class="navbar-brand" href="#"><img src="  <?php echo get_template_directory_uri() ?>/images/sparkycleaners.png">
+</a></h1>
+    </div>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$sparkly_description = get_bloginfo( 'description', 'display' );
-			if ( $sparkly_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $sparkly_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#index.html" class="page-scroll">HOME</a></li>
+        <li><a href="#about" class="page-scroll">ABOUT</a></li>
+		<li><a href="#services" class="page-scroll">SERVICES</a></li>
+		<li><a href="#gallery" class="page-scroll">GALLERY</a></li>
+		<li><a href="#testimonials" class="page-scroll">TESTIMONIALS</a></li>
+		<li><a href="#contact" class="page-scroll">CONTACT</a></li>
+		           <form class="navbar-form navbar-left">
+        <div class="w3l_frm">
+		<form action="#" method="post">
+		<button type="submit"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
+          <input type="text" name="search"  placeholder="Search" required="">
+		    </form>
+        </div>
+     
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sparkly' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
 
-	<div id="content" class="site-content">
+<div class="w3l_bandwn">
+ <h2>Welcome to Sparkly Cleaners</h2>
+ <div class="about-p text-center">
+<span class="sub-title"></span>
+<span class="fa fa-star" aria-hidden="true"></span>
+<span class="sub-title"></span>
+</div>
+<h3>Cleaning Services</h3>
+<div class="agile_dwng">
+<a href="#" data-toggle="modal" data-target="#myModal">Read More </a>
+  <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+             <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sparkly Cleaners</h4>
+        </div>
+        <div class="modal-body">
+		<img src="<?php echo  get_template_directory_uri();  ?>/images/modal.jpg"  class="img-responsive" alt="tfg">
+          <p>SParkly Cleaners is simply a company which strives to improve your hygiene by simply providing both domestic and commercial cleaning services like ironing,after construction cleaning etc</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+ </div>
+</div>
+
+
+</body>
+</html>
