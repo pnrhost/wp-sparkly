@@ -14,10 +14,20 @@ get_header();
 		<main id="main" class="site-main">
 
 		<?php
+
+    switch (get_post_type()) :
+            case 'wdc_service':
+                $single_loop = 'service';
+                break;
+                  default:
+                $single_loop = 'blog';
+                break;
+        endswitch;
+
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+			get_template_part( 'template-parts/content', $single_loop );
 
 			the_post_navigation();
 
@@ -33,5 +43,4 @@ get_header();
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

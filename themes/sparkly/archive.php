@@ -10,8 +10,8 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div id="primary" class="row" style="background: #fff; min-height: 200px;">
+		<main id="main" class="container">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -49,5 +49,4 @@ get_header();
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

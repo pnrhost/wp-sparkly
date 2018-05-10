@@ -15,6 +15,46 @@
 get_header();
 ?>
 
+
+
+<div class="w3l_bandwn">
+ <h2>Welcome to Sparkly Cleaners</h2>
+ <div class="about-p text-center">
+<span class="sub-title"></span>
+<span class="fa fa-star" aria-hidden="true"></span>
+<span class="sub-title"></span>
+</div>
+<h3>Cleaning Services</h3>
+<div class="agile_dwng">
+<a href="#" data-toggle="modal" data-target="#myModal">Read More </a>
+  <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+             <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sparkly Cleaners</h4>
+        </div>
+        <div class="modal-body">
+		<img src="<?php echo  get_template_directory_uri();  ?>/images/modal.jpg"  class="img-responsive" alt="tfg">
+          <p>SParkly Cleaners is simply a company which strives to improve your hygiene by simply providing both domestic and commercial cleaning services like ironing,after construction cleaning etc</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+ </div>
+</div>
+
+
+</body>
+</html>
+
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
