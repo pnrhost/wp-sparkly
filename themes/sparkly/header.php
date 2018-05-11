@@ -60,23 +60,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#index.html" class="page-scroll">HOME</a></li>
-        <li><a href="#about" class="page-scroll">ABOUT</a></li>
-		<li><a href="#services" class="page-scroll">SERVICES</a></li>
-		<li><a href="#gallery" class="page-scroll">GALLERY</a></li>
-		<li><a href="#testimonials" class="page-scroll">TESTIMONIALS</a></li>
-		<li><a href="#contact" class="page-scroll">CONTACT</a></li>
-		           <form class="navbar-form navbar-left">
-        <div class="w3l_frm">
-		<form action="#" method="post">
-		<button type="submit"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></button>
-          <input type="text" name="search"  placeholder="Search" required="">
-		    </form>
+
+
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'menu-1',
+                    'menu_id'        => 'slimmenu',
+                    'menu_class' => 'nav navbar-nav',
+                ));
+            ?>
+		    
+ <form class="navbar-form navbar-left" action="<?php echo home_url('/'); ?>" method="get" style="float: right !important;">
+            <div class="w3l_frm" >
+              
+          <input type="text" value="<?php the_search_query(); ?>" name="s"  placeholder="Search" required="">
+            </div>
+        </form>
+
+
+
+
+
         </div>
      
      
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </nav>
 

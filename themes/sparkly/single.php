@@ -10,14 +10,14 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<div id="primary" class="content-area" style="background: #fff; min-height: 700px;">
+		<main id="main" class="container" >
 
 		<?php
 
     switch (get_post_type()) :
-            case 'wdc_service':
-                $single_loop = 'service';
+            case 'services':
+                $single_loop = 'services';
                 break;
                   default:
                 $single_loop = 'blog';
@@ -27,14 +27,7 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
-			get_template_part( 'template-parts/content', $single_loop );
-
-			the_post_navigation();
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+			get_template_part( 'template-parts/single', $single_loop );
 
 		endwhile; // End of the loop.
 		?>

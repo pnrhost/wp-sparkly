@@ -1,5 +1,6 @@
-<div class='col-md-4 hhh' style="padding-bottom: 20px;">
-<div class='wthree_rt'>
+
+<div class='col-md-12'>
+<div class='wthree_rt' style="border: none;">
 <i class='fa fa-ship' aria-hidden='true'></i>
 <h4> <?php the_title(); ?></h4>
 <p style='text-align: left'>
