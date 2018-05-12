@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="col-md-3 w3_r">
 <a href="https://www.facebook.com/Sparklycleaners-1924176447873034"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.instagram.com/sparklycleaners/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 </div>
 <div class="clearfix"></div>

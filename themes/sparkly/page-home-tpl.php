@@ -30,8 +30,7 @@ get_header();
           <h4 class="modal-title">Sparkly Cleaners</h4>
         </div>
         <div class="modal-body">
-		<img src="<?php echo  get_template_directory_uri();  ?>/images/modal.jpg"  class="img-responsive" alt="tfg">
-          <p>SParkly Cleaners is simply a company which strives to improve your hygiene by simply providing both domestic and commercial cleaning services like ironing,after construction cleaning etc</p>
+          <p>At Sparkly Cleaners we understand having a cleaner environment is not a necessity it is a need, Cleaning eradicates harmful bacteria’s which can cause harm to our wellbeing either as an individual or a society as a whole resulting to having an impact to National health services. As a reliable very good cleaning service provide based in Harlow Essex. Not only do we clean we save the environment as well our team encourages our clients to recycles anything that is recyclable. </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -55,6 +54,7 @@ get_header();
 				<h4>Powerful Features</h4>
 				
 					<P>Offer Domestic and Commercial cleaning servives</p>
+
 			</div>
 			<div class="inner_sec_info_agileits_w3">
 				<!-- <div class="border1"> -->
@@ -206,9 +206,8 @@ get_header();
 <i class="fa fa-ship" aria-hidden="true"></i>
 <h4>Office cleaning</h4>
 <p style="text-align: justify;">
-If you’re looking for a new commercial or domestic cleaning contractor for your office or premises, we can offer you a professional and competitively priced cleaning service. We’re experienced too, servicing hundreds of offices around the UK every day. Sparkley Cleaners has over 20 years office cleaning experience cleaning for national  companies, as well as for the smaller independents.
-
-Providing a clean office environment is a key component to a modern, effective organisation. Cleanliness is of paramount importance to a company's brand persona and client perception. It also has a major role to play for employee health and well-being and can directly influence productivity through the prevention of absences from work.<p>
+If you’re looking for a new commercial or domestic cleaning contractor for your office or premises, we can offer you a professional and competitively priced cleaning service. We’re experienced too, servicing hundreds of offices around the UK every day. Sparkley Cleaners has over 20 years office cleaning experience.
+<p>
 </div>
 </div>
 
@@ -220,8 +219,7 @@ Providing a clean office environment is a key component to a modern, effective o
 	<p style="text-align: justify;">
 								
 Time for you to move out and leave your housing? 
-You are in need of after tenants / landlord cleaning you can trust? Take precautions when leaving your rented property and book a comprehensive end of tenancy cleaning service you can trust. Solid lease end know-how and 72h re-clean guarantee will please any landlord or letting agent. Only a professional cleaning company like Sparkley Cleaners will guarantee your check-out deposit refund with your after-tenancy service as you exit the rental.
-<br><br><br><br><br><br><br><br><br>
+This service is available to individuals and Real Estate Managers, Letting Agency for those tenancies coming to the end of the contract or for new occupancy either for house cleaning or office cleaning. We do a top down internal thorough cleaning leaving the building very clean.
 
 </p></div>
 </div>
@@ -235,10 +233,7 @@ You are in need of after tenants / landlord cleaning you can trust? Take precaut
 <h4>After events cleaning</h4>
 <p style="text-align: justify;">
 	
-	We offer expert event cleaning services at indoor and outdoor corporate and public events all year round. No matter how big your event - from race meets to corporate events, huge festivals and everything in between - our cleaners are here to help!
-
-	A big event takes a lot of time and energy to plan and maintain.  The last thing that you want to deal with at the end of an event is cleaning up the messes that people at the events leave at the venue.  Sparkley Cleaners has the solution to this messy problem, and we have it at an affordable rate. Plus, we not only clean up after the event, but we clean it beforehand as well.
-	<br><br><br><br><br>
+	This service is available for Small gathering to larger crowds Either before the event getting ready for the weddings, conferences, festivals, Sports events. We understand this type of cleaning normally comes with timing schedule and our man managements team and staff are trained to work within such conditions.
 </p>
 </div>
 </div>

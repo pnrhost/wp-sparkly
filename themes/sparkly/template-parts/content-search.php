@@ -11,14 +11,13 @@
 
 
 <article id="post-<?php the_ID(); ?>">
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
-	</header><!-- .entry-header -->
+<div class='col-md-6 hhh' style="margin-top: 10px;margin-bottom: 10px">
+<div class="wthree_rt">
 
+	<?php the_title( sprintf( '<h4><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h4>' ); ?>
 
-<div class='col-md-12 hhh' style="margin-top: 10px;margin-bottom: 10px">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
-
+</div>
 </article><!-- #post-<?php the_ID(); ?> -->
